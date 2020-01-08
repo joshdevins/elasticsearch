@@ -149,7 +149,8 @@ public class AggregationsTests extends ESTestCase {
             new InternalBinaryRangeTests(),
             new InternalTopHitsTests(),
             new InternalCompositeTests(),
-            new InternalMedianAbsoluteDeviationTests());
+            new InternalMedianAbsoluteDeviationTests(),
+            new InternalSearchMetricsTests());
 
     @Override
     protected NamedXContentRegistry xContentRegistry() {
